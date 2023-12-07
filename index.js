@@ -1,4 +1,50 @@
-// Code your solutions in this file
+
+function writeCards(names){
+    const messages = [];
+    for(let i=0; i<names.length; i++){
+        messages.push(`Thank you, ${names[i]}, for the wonderful surprise gift!`)
+    }
+    return messages
+}
+
+function countDown(x){
+    for(let i=0; i<11; i++){
+        console.log(i)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*// Code your solutions in this file
 
 function writeCards(stringNames, eventNames){
     const messages = [];
@@ -19,3 +65,4 @@ function countDown(integer){
         }
     }   
 };
+*/
